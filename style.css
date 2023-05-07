@@ -41,6 +41,7 @@ main{
     color: #aa6c54;
     margin-left: 30px;
     margin-top: 90px;
+    margin-right: 20px;
     padding-left: 20px;
     padding-top: 20px;
 }
@@ -54,6 +55,7 @@ main{
     margin-top: 20px;
 }
 
+
 .bn-encriptar{
     background-color: #e2f9cd;
     border: 1px solid #e2f9cd;
@@ -62,6 +64,12 @@ main{
     cursor: pointer;
     height: 67px;
     width: 200px;
+    transition: 500ms;
+}
+
+.bn-encriptar:hover{
+    scale: 1.2;
+    background-color: #d3f9af;
 }
 
 .bn-desencriptar{
@@ -73,6 +81,12 @@ main{
     height: 67px;
     width: 200px;
     margin-left: 30px;
+    transition: 500ms;
+}
+
+.bn-desencriptar:hover{
+    scale: 1.2;
+    background-color: #975e47;
 }
 
 .bn-copiar{
@@ -85,6 +99,12 @@ main{
     margin-top: 20px;
     position: absolute;
     width: 200px;
+    transition: 500ms;
+}
+
+.bn-copiar:hover{
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .texto-de-informacion{
